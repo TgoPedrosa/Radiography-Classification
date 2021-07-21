@@ -10,16 +10,10 @@ def write():
 
     st.image(image, use_column_width=True)
 
-    col1, col2 = st.beta_columns([1, 20])
-    with col1:
-        st.markdown('''
-                    <a href="https://github.com/TgoPedrosa/Radiography-Classification">
-                        <img src="images/GitHub-Mark-64px.png" />
+    st.markdown('''
+                    <a href="https://github.com/TgoPedrosa/Radiography-Classification" target="_blank" title="GitHub">
+                        <img src="https://raw.githubusercontent.com/TgoPedrosa/Radiography-Classification/devel/app/images/GitHub-Mark-64px.png" />
                     </a>''', unsafe_allow_html=True)
-    with col2:
-         st.markdown('''
-                    <a href="https://www.linkedin.com/in/tgopedrosa/?locale=en_US">
-                        <img src="images/linkedin.png" />
-                    </a>''', unsafe_allow_html=True)
+
 
 
