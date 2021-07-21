@@ -3,3 +3,5 @@ pandas
 scikit-learn
 opencv-python
 notebook
+Flask
+torch torchvision torchaudio
