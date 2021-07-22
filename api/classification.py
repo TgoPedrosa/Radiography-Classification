@@ -16,7 +16,7 @@ class Classification(object):
                                transforms.ToTensor()])
 
         self.model = ConvNet(3)
-        self.model.load_state_dict(torch.load("../notebooks/output/rad_classifier.pt"))
+        self.model.load_state_dict(torch.load("rad_classifier.pt"))
         self.model.eval()
    
     def Predict(self,img):

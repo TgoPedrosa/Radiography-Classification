@@ -8,7 +8,8 @@ from pathlib import Path
 
 # Funcao para gerar a lista das correlacoes
 def makePredict(img, extension):
-    addr = 'http://localhost:5000'
+    #addr = 'http://172.17.0.8:5000'
+    addr = 'https://rad-class-api.herokuapp.com/'
     test_url = addr + '/predict'
 
     # prepare headers for http request

@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import os
 import json
 from flask import Flask, jsonify, request, Response
 from classification import Classification
@@ -39,4 +40,5 @@ def not_found(e):
 
 
 if __name__ == '__main__':
-      app.run(host="0.0.0.0", port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
