@@ -4,6 +4,6 @@ Use of CNN to detect COVID-19 through radiography and/or computed tomography ima
 
 
 ### Demo
-**first prediction may return an error, as the api is hosted on heroku and it ends up in the sleep state when there is no traffic
+*first prediction may return an error, as the api is hosted on heroku and it ends up in the sleep state when there is no traffic*
 
 https://rad-class-app.herokuapp.com/
