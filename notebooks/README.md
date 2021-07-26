@@ -6,11 +6,12 @@ Notebook with the construction of CNN and different approaches such as class bal
 
 ## Results
 
-### No pre-processing
-
 - 0 = Covid
 - 1 = Normal
 - 2 = ViralPneumonia
+
+
+### No pre-processing
 
 <img src="output/radiography_normal.png">
 
